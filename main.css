@@ -79,9 +79,17 @@ body{
     gap: 0.4em;
 }
 
+
+.image1{
+  z-index: 1;
+  width: 16%;
+  background-color: aqua;
+  background-size: contain;
+}
 .one{
     color: antiquewhite;
     padding: 1rem;
+    background-image: url("mark.jpg");
 }
 .two{
     color: antiquewhite;
@@ -140,3 +148,4 @@ body{
     width: min(90%,90em);
   }
 }
+
